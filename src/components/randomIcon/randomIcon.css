@@ -1,0 +1,31 @@
+.random-button {
+  margin-top: 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 14px;
+  background-color: transparent;
+  border: 1.5px solid rgb(108, 115, 148);
+  color: rgb(235, 235, 235);
+  text-transform: uppercase;
+}
+
+.random-button:hover {
+  background-color: rgb(131, 138, 172);
+}
+
+.random-button:active {
+  background-color: rgb(108, 115, 148);
+  color: rgb(255, 255, 255);
+}
+.random-button:disabled {
+  background-color: transparent;
+  color: rgb(148, 148, 148);
+  border: 1.5px solid rgb(148, 148, 148);
+}
+
+@media screen and (max-width: 600px) {
+  .random-button {
+    font-size: 11px;
+    border-radius: 11px;
+  }
+}
